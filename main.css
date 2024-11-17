@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    background-color: #060a20;
+}
+
+nav {
+    background-color: #070d29;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.second_ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu li {
+    position: relative;
+    margin-right: 20px;
+}
+
+#reg {
+    color: white;
+}
+
+#sec_btn {
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #ac93ff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+    list-style: none;
+    position: absolute;
+    background-color: #232028;
+    display: none;
+    /* Hidden by default */
+    min-width: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px 2px rgb(255, 255, 255);
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+}
+
+
+.dropdown-menu a:hover {
+    background-color: #ac93ff;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+.icon {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+    /* Animatsiya */
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .icon {
+    transform: rotate(180deg);
+    /* Pastga qaraydi */
+}
+
+
+
+
+
+
+
+
+.main_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.div_box1 {
+    width: 300px;
+    height: 410px;
+    background-color: #232028;
+    border-radius: 20px;
+    margin-top: 300px;
+    position: relative;
+    padding: 20px;
+}
+
+#gojo1 {
+    position: absolute;
+    bottom: 280px;
+    left: 50px;
+}
+
+
+.box1_title {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.box1_text {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+footer {
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: rgb(1, 1, 48);
+    width: 100%;
+    height: 70px;
+}
+
+.main_foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot_text {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+}
+
+.foot_text:hover{
+    border-bottom: 2px solid white;
+}
